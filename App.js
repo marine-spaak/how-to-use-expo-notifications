@@ -94,7 +94,7 @@ export default function App() {
   // Deuxième useEffect pour envoyer ma notification personnelle
   useEffect(() => {
     schedulePushNotification();
-  }, []);  
+  }, []);
   
   return (
     <View style={styles.container}>
